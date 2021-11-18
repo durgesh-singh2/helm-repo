@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  ibm-ssp-engine:
+  - apiVersion: v2
+    appVersion: 6.0.3.0
+    created: "2021-11-18T06:19:03.036206958-06:00"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: ^1.2.18
+    description: 'A Helm chart to deploy IBM Sterling Secure Proxy - Engine on a containerized
+      platform. Documentation For additional details regarding install parameters
+      check Engine Helm Chart documentation at https://www.ibm.com/docs/en/secure-proxy/6.0.3
+      License By installing this product you accept the following license terms: http://www-03.ibm.com/software/sla/sladb.nsf'
+    digest: 3b3af75e0f350a38a38929510512b116f2cd0c81ac02a97da7abcf952da4531f
+    home: https://www.ibm.com/docs/en/secure-proxy/6.0.3
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-ssp.png
+    keywords:
+    - amd64
+    - DevOps
+    - Commercial
+    - Limited
+    - IKS
+    - RHOCP
+    - Other
+    kubeVersion: '>=1.19.0'
+    maintainers:
+    - name: IBM
+    name: ibm-ssp-engine
+    type: application
+    urls:
+    - https://durgesh-singh2.github.io/helm-repo/charts/ibm-ssp-engine-1.2.2.tgz
+    version: 1.2.2
+generated: "2021-11-18T06:19:03.030036716-06:00"
